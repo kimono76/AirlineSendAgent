@@ -6,6 +6,6 @@ namespace AirlineSendAgent.Data
     public class SendAgentDbContext:DbContext
     {
         public SendAgentDbContext(DbContextOptions<SendAgentDbContext> opt):base(opt){}
-        public DbSet<WebhookSubscription> WebhookSubscription { get; set; }   
+        public DbSet<WebhookSubscription> WebhookSubscriptions { get; set; }   
     }
 }
