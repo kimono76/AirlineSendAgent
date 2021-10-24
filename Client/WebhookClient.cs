@@ -8,11 +8,11 @@ using System;
 
 namespace AirlineSendAgent.Client
 {
-    public class WebHookClient : IntWebhookClient
+    public class WebhookClient : IntWebhookClient
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public WebHookClient(IHttpClientFactory httpClientFactory)
+        public WebhookClient(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         } 
